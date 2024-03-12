@@ -1,6 +1,6 @@
-## React UX Shell
+## Switchboard
 
-The intention of this codebase is to serve as a shell (and a guideline) for the creation of future React repositories at Sequelae/Lore Health.  Although future applications may not use all of the conventions present in this shell, it's assumed that these conventions should be used as defaults unless the app/team requirements dictate otherwise.
+This codebase is a React/TypeScript UI for handling email campaigns and A/B split testing via email messages.
 
 ## Code Organization
 The following are core directories:
