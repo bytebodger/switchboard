@@ -1,0 +1,68 @@
+export const mockPermissions = {
+   get: [
+      {
+         app_access_desc: 'Generic read access',
+         app_access_display_name: 'Read',
+         app_access_name: 'Read',
+         disabled_datetime_utc: null,
+         disabled_flag: false,
+         ref_app_access_id: 1,
+      },
+      {
+         app_access_desc: 'Generic write access',
+         app_access_display_name: 'Write',
+         app_access_name: 'Write',
+         disabled_datetime_utc: null,
+         disabled_flag: false,
+         ref_app_access_id: 3,
+      },
+      {
+         app_access_desc: 'View Admin settings',
+         app_access_display_name: 'Admin.Read',
+         app_access_name: 'Admin.Read',
+         disabled_datetime_utc: null,
+         disabled_flag: false,
+         ref_app_access_id: 19,
+      },
+      {
+         app_access_desc: 'Update Admin settings',
+         app_access_display_name: 'Admin.Write',
+         app_access_name: 'Admin.Write',
+         disabled_datetime_utc: null,
+         disabled_flag: false,
+         ref_app_access_id: 20,
+      },
+      {
+         app_access_desc: 'View content related to Experiments',
+         app_access_display_name: 'Scientist.Read',
+         app_access_name: 'Scientist.Read',
+         disabled_datetime_utc: null,
+         disabled_flag: false,
+         ref_app_access_id: 21,
+      },
+      {
+         app_access_desc: 'Update content related to Experiments',
+         app_access_display_name: 'Scientist.Write',
+         app_access_name: 'Scientist.Write',
+         disabled_datetime_utc: null,
+         disabled_flag: false,
+         ref_app_access_id: 22,
+      },
+      {
+         app_access_desc: 'View content related to Reviews',
+         app_access_display_name: 'Approver.Read',
+         app_access_name: 'Approver.Read',
+         disabled_datetime_utc: null,
+         disabled_flag: false,
+         ref_app_access_id: 23,
+      },
+      {
+         app_access_desc: 'Update content related to Reviews',
+         app_access_display_name: 'Approver.Write',
+         app_access_name: 'Approver.Write',
+         disabled_datetime_utc: null,
+         disabled_flag: false,
+         ref_app_access_id: 24,
+      }
+   ],
+}

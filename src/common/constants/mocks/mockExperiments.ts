@@ -1,0 +1,48 @@
+export const mockExperiments = {
+   get: [
+      {
+         experiment_begin_datetime_utc: '2023-07-10T00:00:00',
+         experiment_desc: 'Recruitment campaign for Sequelae employees to Lore Community',
+         experiment_end_datetime_utc: '2023-07-12T00:00:00',
+         experiment_name: 'July 7 Sequelae Employee Community Recruitment',
+         ref_experiment_id: 1,
+         row_created_datetime_utc: '2023-07-07T13:13:04',
+         row_created_user_id: 1,
+         row_modified_datetime_utc: '2023-07-07T13:13:04',
+         row_modified_user_id: 1,
+      },
+      {
+         experiment_begin_datetime_utc: '2023-07-28T00:00:00',
+         experiment_desc: 'this is a test experiment',
+         experiment_end_datetime_utc: '2023-07-31T00:00:00',
+         experiment_name: 'Test Experiment',
+         ref_experiment_id: 2,
+         row_created_datetime_utc: '2023-07-28T14:34:58',
+         row_created_user_id: 1,
+         row_modified_datetime_utc: '2023-08-09T07:01:30',
+         row_modified_user_id: 12,
+      },
+      {
+         experiment_begin_datetime_utc: '2023-07-28T00:00:00',
+         experiment_desc: 'this is the third test experiment',
+         experiment_end_datetime_utc: '2023-08-03T00:00:00',
+         experiment_name: 'Test Experiment #3',
+         ref_experiment_id: 7,
+         row_created_datetime_utc: '2023-07-28T14:41:34',
+         row_created_user_id: 1,
+         row_modified_datetime_utc: '2023-08-09T07:03:12',
+         row_modified_user_id: 12,
+      },
+      {
+         experiment_begin_datetime_utc: '2023-10-01T00:00:00',
+         experiment_desc: 'Future Test',
+         experiment_end_datetime_utc: '2023-10-31T00:00:00',
+         experiment_name: 'Future Test',
+         ref_experiment_id: 8,
+         row_created_datetime_utc: '2023-08-14T17:32:09',
+         row_created_user_id: 12,
+         row_modified_datetime_utc: '2023-08-14T17:32:09',
+         row_modified_user_id: 12,
+      }
+   ],
+}

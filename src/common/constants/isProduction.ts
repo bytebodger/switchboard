@@ -1,0 +1,1 @@
+export const isProduction = ['PROD', 'PRODUCTION'].includes(`${process.env.REACT_APP_ENV}`.toUpperCase());

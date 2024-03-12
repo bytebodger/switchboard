@@ -1,0 +1,15 @@
+export interface UserUI {
+   accountVerifiedOn: string | null,
+   avatarUrl: string,
+   createdBy: string,
+   disabledOn: string | null,
+   email: string,
+   firstName: string,
+   id: number,
+   isAccountVerified: boolean,
+   isDisabled: boolean,
+   lastName: string,
+   middleName: string,
+   modifiedBy: string,
+   ssoObjectId: string,
+}
